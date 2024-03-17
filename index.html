@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAweome CDN Link for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+
+  <!-- botón de inicio de prueba -->
+    
+  <div class="start_btn"><button>Start test</button>
+
+
+    
+  </div>
+
+  <!-- Caja de Informacion-->
+  <div class="info_box">
+      <div class="info-title"><span>Some rules of the questionaire</span></div>
+      <div class="info-list">
+          <div class="info">1. you will only have  <span> 20 seconds</span> for each question.</div>
+          <div class="info">2. once the answer is chose, it cannot be undo</div>
+          <div class="info">3. you can't select any other option after time is up.</div>
+          <div class="info">4. You cannot leave the test while playing</div>
+          <div class="info">5. you will receive points based on your correct answers</div>
+      </div>
+      <div class="buttons">
+          <button class="quit">Exit test</button>
+          <button class="restart">Continue</button>
+      </div>
+      
+  </div>
+
+  <!-- Cuadro de prueba-->
+  <div class="quiz_box">
+      <header>
+          <div class="title">Very well test!</div>
+          <div class="timer">
+              <div class="time_left_txt">Remaining time</div>
+              <div class="timer_sec">20</div>
+          </div>
+          <div class="time_line"></div>
+      </header>
+      <section>
+          <div class="que_text">
+              <!-- Aquí he insertado una pregunta de JavaScript -->
+          </div>
+          <div class="option_list">
+              <!-- Aquí he insertado opciones de JavaScript -->
+          </div>
+      </section>
+
+      <!-- pie de página de la prueba -->
+      <footer>
+          <div class="total_que">
+              <!-- Aquí he insertado Número de conteo de preguntas de JavaScript -->
+          </div>
+          <button class="next_btn">Next</button>
+      </footer>
+  </div>
+
+  <!-- Result Box -->
+  <div class="result_box">
+      <div class="icon">
+
+          <img src="foto/WhatsApp Image 2024-03-17 at 11.49.11.jpeg" class="avatar" alt="">
+
+
+      </div>
+      <div class="complete_text">¡You have completed the questionaire</div>
+      <div class="score_text">
+          <!-- Aquí he insertado Score Result de JavaScript-->
+      </div>
+      <div class="buttons">
+          <button class="restart">Repeat</button>
+          <button class="quit">Exit </button>
+      </div>
+  </div>
+
+  <!-- Dentro de este archivo JavaScript, solo he insertado preguntas y opciones. -->
+  <script src="preguntas.js"></script>
+
+  <!-- Dentro de este archivo JavaScript he codificado todos los códigos de prueba -->
+  <script src="script.js"></script>
+
+
+    
+</body>
+</html>
